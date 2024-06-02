@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nogometna spletna stran.">
+    <meta name="keywords" content="Sava, Nogometni klub, Kranj">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tijan Gogić">
+    <title>kontakt</title>
+    <link rel="icon" href="slike/favicon.ico" type="image/x-icon">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+	<link rel="stylesheet" href="Css/style.css">
+
+</head>
+<body>
+
+    <!-- Navigacijska vrstica -->
+    <nav class="navbar">
+        <div class="navbar_brand">Nogometni klub Sava Kranj</div>
+        <div>
+            <a href="index.html">Domov</a>
+            <a href="urniki.html">Urniki</a>
+            <div class="dropdown">
+                <a href="info/info.html" class="dropbtn">Info</a>
+                <div class="dropdown-content">
+                    <a href="info/vpis.html">Vpis</a>
+                    <a href="info/vadnina.html">Vadnina</a>
+                    <a href="info/registracija.html">Registracija</a>
+                </div>
+            </div>
+            <a href="O_nas.html">O nas</a>
+            <a href="trenerji.html">Trenerji</a>
+
+            <a href="kontakt.html">Kontakt</a>
+        </div>
+    </nav>
+    <div class="naslov">
+        <h1>Kontakt</h1>
+    </div>
+    <div class="kontakt">Kje smo</div>
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2759.836402457061!2d14.347331376734722!3d46.23359798177491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477ab9fb26fc9ef3%3A0x15623ff3106c7d55!2s%C5%A0kofjelo%C5%A1ka%20cesta%2012%2C%204000%20Kranj!5e0!3m2!1ssl!2ssi!4v1717087014780!5m2!1ssl!2ssi" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+        <div class="kontakt">Pišite nam</div>
+    <div class="podatki">
+        <p>Naš g-mail: nkSava@gmail.com</p>
+        <p>Davčna številka: 34163536</p>
+        <p>Matična številka:356514888</p>
+    </div>
+
+    <div class="container">
+        <h1>Kontaktni Obrazec</h1>
+        <form>
+            <div class="form-group">
+                <label for="name">Ime:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Gmail:</label>
+                <input type="email" id="email" name="email" pattern=".+@gmail\.com" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Sporočilo:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Pošlji</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>©NK Sava Kranj, Škofjeloška cesta 12, 4000 Kranj</p>
+    </footer>
+
+</body>
+</html>
